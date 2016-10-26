@@ -1,0 +1,236 @@
+
+
+<!doctype html>
+<html><head><title>Sudoku</title>
+
+<style type="text/css">
+tbody, colgroup {
+border: 2px solid blue;
+}
+
+td {
+border: 1px solid blue;
+}
+</style>
+
+</head>
+<body>
+<style>
+table { border-collapse: collapse; font-family: Calibri, sans-serif; }
+colgroup, tbody { border: solid medium; }
+td { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding: 0; }
+</style>
+<table>
+  <caption>Sudoku</caption>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  <colgroup><col><col><col>
+  
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+<table><tr><td id="test"></td></tr></table>
+   <tbody>
+   <tr>
+    
+   <td id="e11"></td>
+   
+   <td><form action=""><input type="number" id="e12" min="1" max="9"></form>  </td>  
+   
+   <td><form action=""><input type="number" id="e13" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e14" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e15" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e16" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e17" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e18" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e19" min="1" max="9"></form>
+   
+   
+   <tr>
+    
+   <td><form action=""><input type="number" id="e21" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e22" min="1" max="9"></form>    
+   
+   <td><form action=""><input type="number" id="e23" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e24" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e25" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e26" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e27" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e28" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e29" min="1" max="9"></form>
+   
+   
+   <tr>
+    
+   <td><form action=""><input type="number" id="e31" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e32" min="1" max="9"></form>    
+   
+   <td><form action=""><input type="number" id="e33" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e34" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e35" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e36" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e37" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e38" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e39" min="1" max="9"></form>
+   
+<tbody>
+   <tr>
+    
+   <td><form action=""><input type="number" id="e41" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e42" min="1" max="9"></form>    
+   
+   <td><form action=""><input type="number" id="e43" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e44" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e45" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e46" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e47" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e48" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e49" min="1" max="9"></form>
+   
+   
+   <tr>
+    
+   <td><form action=""><input type="number" id="e51" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e52" min="1" max="9"></form>    
+   
+   <td><form action=""><input type="number" id="e53" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e54" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e55" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e56" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e57" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e58" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e59" min="1" max="9"></form>
+   
+   
+   <tr>
+    
+   <td><form action=""><input type="number" id="e61" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e62" min="1" max="9"></form>    
+   
+   <td><form action=""><input type="number" id="e63" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e64" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e65" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e66" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e67" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e68" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e69" min="1" max="9"></form>
+   
+   <tbody>
+   <tr>
+    
+   <td><form action=""><input type="number" id="e71" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e72" min="1" max="9"></form>    
+   
+   <td><form action=""><input type="number" id="e73" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e74" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e75" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e76" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e77" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e78" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e79" min="1" max="9"></form>
+   
+   
+   <tr>
+    
+   <td><form action=""><input type="number" id="e81" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e82" min="1" max="9"></form>    
+   
+   <td><form action=""><input type="number" id="e83" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e84" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e85" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e86" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e87" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e88" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e89" min="1" max="9"></form>
+   
+   
+   <tr>
+    
+   <td><form action=""><input type="number" id="e91" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e92" min="1" max="9"></form>    
+   
+   <td><form action=""><input type="number" id="e93" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e94" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e95" min="1" max="9"></form>  
+    
+   <td><form action=""><input type="number" id="e96" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e97" min="1" max="9"></form>
+   
+   <td><form action=""><input type="number" id="e98" min="1" max="9"></form>  
+      
+   <td><form action=""><input type="number" id="e99" min="1" max="9"></form>
+</table>
+
+<table>
+	<tr>
+		<td id="easyButton1"></td>
+	</tr>
+</table>
+
+<button id="easyButton" value="OK" type="button">Easy</button>
+<button id="mediumButton" value="OK" type="button">Medium</button>
+<button id="hardButton" value="OK" type="button">Hard</button>
+<br><br>
+<button id="submitButton" value="OK" type="button">Submit</button>
+<br>
+<button id="giveupButton" value="OK" type="button">Give Up</button>
+</body></html>

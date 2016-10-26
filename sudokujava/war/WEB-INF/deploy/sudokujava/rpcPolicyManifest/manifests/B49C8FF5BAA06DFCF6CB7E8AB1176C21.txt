@@ -1,0 +1,2 @@
+serviceClass: com.example.sudokujava.client.GreetingService
+path: E9CDFB1200BF1252D6BEE4CCE2511D48.gwt.rpc
